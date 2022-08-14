@@ -151,7 +151,7 @@ main().then(async () => {
           
     })
     
-    app.listen(5000, () => {
+    app.listen(process.env.PORT, () => {
         console.log('The application is listening on port 5000!');
     })
 
