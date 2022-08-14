@@ -1,0 +1,18 @@
+version: "3"
+services:
+  psn-app:
+    image: psn-app
+    stdin_open: true
+    ports: 
+      - "3000:3000"
+    networks:
+      - fullstack-app
+  api-server:
+    image: api-server
+    ports:
+      - "5000:5000"
+    networks:
+      - fullstack-app
+networks:
+  fullstack-app:
+    driver: bridge

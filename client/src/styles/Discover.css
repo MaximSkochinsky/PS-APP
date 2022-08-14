@@ -1,0 +1,195 @@
+/* * {
+    background-image: none;
+} */
+
+
+html {
+    height: auto;
+}
+
+figure {
+    width: -webkit-fill-available;
+}
+
+#player_nickname {
+    font-size: 70px;
+    color: black;
+}
+
+
+.trophy {
+    font-size: 50px;
+    width:100%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+
+.trophy_name {
+    color: white;
+    font-size: 80px;
+}
+
+.trophy_extra_info {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+
+
+.trophy_extra_info span {
+    color: white;
+    font-size: 70px
+}
+
+
+.trophy_description {
+    color:rgb(149, 142, 253);
+    font-size: 50px
+}
+
+.trophy_stat {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.trophy_name_details {
+    display: flex;
+    flex-direction: column;
+    min-width: 70%;
+}
+
+
+.ps_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+
+
+
+.input-group {
+    justify-content: center;
+    padding: 5px;
+    margin-top: 5rem;
+}
+
+#profile_image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+body {
+    background: rgb(54,46,180);
+    background: linear-gradient(90deg, rgba(54,46,180,1) 0%, rgba(55,55,255,1) 16%, rgba(41,153,255,1) 100%);
+}
+
+.trophies_list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+figcaption {
+    font-size: xx-large;
+    font-style:oblique;
+    color: black;
+}
+
+
+.trophy_info {
+    display: flex;
+    flex-direction: row;
+    /* border: solid black 1px; */
+    width: 100%;
+    min-height: 30vh;
+}
+
+
+.trophy_image {
+    background-color: blue;
+    max-height: 10vh;
+    /* mix-blend-mode: multiply; */
+}
+
+.title_image {
+    width: 20%;
+    /* border: solid rgba(30, 39, 215, 0.778) 3px; */
+}
+
+.trophy_images {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    padding: 50px;
+}
+
+.trophy_info:hover {
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+
+
+.trophy_info img {
+    background: transparent;
+}
+
+.profile_avatar {
+    border: solid 10px black;
+    border-radius: 14px;
+    margin-top: 10px;
+    min-height: 30vh;
+}
+
+.input-group .btn {
+    height: 7vh;
+    background-color: black;
+    border-color: rgb(29, 246, 228);
+    color: white;
+}
+
+.input-group .btn:hover {
+    background-color: black;
+    border-color: darkslategrey;
+    color:blueviolet;
+
+}
+
+.form-control {
+    width: 600px;
+    height: 7vh;
+    font-size: xx-large;
+}
+
+
+.discover-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.discover-game
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: solid 1px black;
+    width:50%;
+    height: 60vh;
+}

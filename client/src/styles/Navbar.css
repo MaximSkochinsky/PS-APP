@@ -1,0 +1,17 @@
+.App-header h1 {
+    font-size: 20x;
+}
+
+
+.App-header {
+    background-color: black;
+}
+
+.ps_header_icon {
+    width: 120px;
+    align-self: unset;
+    position: absolute;
+    right: 90%;
+}
+
+
