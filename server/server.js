@@ -153,7 +153,7 @@ main().then(async () => {
 
 
     app.get('*', (req, res) => {
-        res.sendFile(path.join(__dirname, '..', 'client/build'));
+        res.sendFile(path.join(__dirname, '..', 'client/build/index.html'));
     });
     
     
