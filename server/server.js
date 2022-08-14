@@ -4,7 +4,7 @@ const psnAPI = require('psn-api')
 const path = require('path')
 const cors = require('cors')
 const { title } = require('process')
-
+const {npsso} = require('./config')
 
 
 const main = async () => {
@@ -13,8 +13,6 @@ const main = async () => {
 
 
 main().then(async () => {
-
-    const npsso = 'XMOGyvV4MoSgFTwx1Dex5OBrFk23NsmbkdoscIUD6IYuEF9VlfNwXIRv2WIQKQH8';
 
     const accessCode = await psnAPI.exchangeNpssoForCode(npsso);
     const authorization = await psnAPI.exchangeCodeForAccessToken(accessCode);
