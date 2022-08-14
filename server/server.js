@@ -2,10 +2,9 @@ const fs = require('fs')
 const express = require('express')
 const psnAPI = require('psn-api')
 const path = require('path')
-const exp = require('constants')
 const cors = require('cors')
 const { title } = require('process')
-const { setIntervalAsync, clearIntervalAsync } = require('set-interval-async');
+
 
 
 const main = async () => {
